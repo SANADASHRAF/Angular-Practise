@@ -2,10 +2,12 @@ import { createRequire } from 'module';const require = createRequire(import.meta
 import {
   BrowserDomAdapter,
   BrowserModule,
-  DOCUMENT,
   EVENT_MANAGER_PLUGINS,
   EventManagerPlugin,
-  HTTP_ROOT_INTERCEPTOR_FNS,
+  HTTP_ROOT_INTERCEPTOR_FNS
+} from "./chunk-FRRBSXYE.js";
+import {
+  DOCUMENT,
   NullViewportScroller,
   PLATFORM_SERVER_ID,
   PlatformLocation,
@@ -13,7 +15,7 @@ import {
   XhrFactory,
   getDOM,
   setRootDomAdapter
-} from "./chunk-RPKA3NO4.js";
+} from "./chunk-U7HKAK77.js";
 import {
   ALLOW_MULTIPLE_PLATFORMS,
   APP_ID,
@@ -48,13 +50,13 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-FFZVCUAZ.js";
+} from "./chunk-ARAGWMKB.js";
 import {
   __async,
   __toESM
 } from "./chunk-YHCV7DAQ.js";
 
-// node_modules/@angular/platform-server/fesm2022/server-BPmC12ZL.mjs
+// ../../node_modules/@angular/platform-server/fesm2022/server-BPmC12ZL.mjs
 var import_rxjs = __toESM(require_cjs(), 1);
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __commonJS = (cb, mod) => function __require() {
@@ -16317,7 +16319,7 @@ var ServerXhr = class _ServerXhr {
       if (!this.xhrImpl) {
         const {
           default: xhr
-        } = yield import("./xhr2-TXIMV6CV.js");
+        } = yield import("./xhr2-GQGQZVNL.js");
         this.xhrImpl = xhr;
       }
     });
@@ -16695,7 +16697,7 @@ function platformServer(extraProviders) {
   return platform;
 }
 
-// node_modules/@angular/platform-server/fesm2022/platform-server.mjs
+// ../../node_modules/@angular/platform-server/fesm2022/platform-server.mjs
 var import_rxjs2 = __toESM(require_cjs(), 1);
 function provideServerRendering() {
   if (false) {
@@ -16900,4 +16902,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-LXNVBXUC.js.map
+//# sourceMappingURL=chunk-FHBV6AF5.js.map
